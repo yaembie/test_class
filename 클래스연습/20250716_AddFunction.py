@@ -5,3 +5,5 @@ add = addition
 
 res = add(add(3, 5), 2)
 print(res)
+
+print("pull 연습")
