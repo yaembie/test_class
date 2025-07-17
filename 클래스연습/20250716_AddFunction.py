@@ -7,7 +7,7 @@ res = add(add(3, 5), 2)
 print(res)
 
 
-# Git test용 수정의 수정
+# Git test용 수정의 수정의 수정
 
 print("pull 연습")
 
