@@ -9,10 +9,10 @@ class Animal:
 class Dog(Animal):
     def __init__(self, name):
         super().__init__(name)
-        super().speak()
 
-    def speak_dog(self):
+    def speak(self):
+        super().speak()
         print("멍!")
 
 d = Dog("비누")
-d.speak_dog()
+d.speak()
