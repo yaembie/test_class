@@ -45,8 +45,6 @@ class GradeManagement():
                 for j in range(1, 4):
                     if not data_list[i][j].isdigit():
                         data_list[i][j] = 0
-            for row in data_list:
-                print(row)
         else:
             data_list = "failed"
             print("파일을 찾을 수 없습니다")
